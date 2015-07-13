@@ -1,0 +1,41 @@
+.box {
+    -webkit-transition: background-position 150ms ease-out;
+    -moz-transition: background-position 150ms ease-out;
+    -ms-transition: background-position 150ms ease-out;
+    -o-transition: background-position 150ms ease-out;
+    transition: background-position 150ms ease-out;
+    
+    background-image: url(http://s23.postimg.org/ex2aroymj/Joshua.png);
+    
+    width: 350px;
+    height: 100px;
+/*    margin: 10px auto;*/
+}
+
+.box.rtl { background-position: 0 center; }
+.box.rtl:hover { background-position: 100% center; }
+
+label.header{
+font-size: 20px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-image: url("https://lh5.googleusercontent.com/FQRokWa5hg1DMFIvBlAc3qXysJzo6wZdzdcHs9IDQZiZ=w833-h553-no");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 225px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}   
